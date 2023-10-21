@@ -1,5 +1,5 @@
 #include<stdio.h>
-#define MAX_SIZE 3   // pre decided
+#define MAX_SIZE 3   // pre decided can be changed as per your feasibility 
 int main()
 {
   int a[MAX_SIZE],i,n;
