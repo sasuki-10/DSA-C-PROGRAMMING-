@@ -19,7 +19,7 @@ int main()
         
     }
     
-    printf("SUM OF AN ARRAY VALUE-->");
+    printf("MULTIPLICATION OF AN ARRAY VALUE-->");
     for(i=0;i<5;i++)
     {
         arr3[i]=arr1[i]*arr2[i];
