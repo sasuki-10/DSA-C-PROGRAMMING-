@@ -10,7 +10,7 @@ int main()
 	{
 	  printf("\narr[%d]=",i);
 	  scanf("%d",&arr[i]);
-    }
+        }
 	
 	for(i=0;i<(MAX)/2;i++)  	
 	{
