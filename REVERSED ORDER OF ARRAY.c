@@ -10,7 +10,7 @@ int main()
 	{
 	  printf("\narr1[%d]=",i);
 	  scanf("%d",&arr1[i]);
-    }
+         }
 	printf("\nInserting the value in arr2[]");
 	for(i=0;i<5;i++)
 	{
