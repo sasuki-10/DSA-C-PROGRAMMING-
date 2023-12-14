@@ -17,7 +17,7 @@ int main()
 	if(arr[i]==arr[MAX-i-1])
 	{
 	count++;
-		}
+	}
 	}	
 	if(count=!(MAX)/2)
 	{
