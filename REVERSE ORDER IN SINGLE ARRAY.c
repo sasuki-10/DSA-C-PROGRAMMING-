@@ -15,7 +15,7 @@ int main()
 	for(i=0;i<(MAX)/2;i++)  	
 	{
 	if(arr[i]==arr[MAX-i-1])
-		{
+	{
 			count++;
 		}
 	}	
