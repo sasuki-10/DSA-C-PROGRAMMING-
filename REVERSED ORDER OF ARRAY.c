@@ -16,7 +16,7 @@ int main()
 	 {
 	  printf("\narr2[%d]=",i);
 	  scanf("%d",&arr2[i]);
-    }	
+          }	
 	for(i=0;i<5;i++)  	
 	{
 		if(arr2[i]==arr1[10-i-1])
