@@ -13,7 +13,7 @@ int main()
          }
 	 printf("\nInserting the value in arr2[]");
 	 for(i=0;i<5;i++)
-	{
+	 {
 	  printf("\narr2[%d]=",i);
 	  scanf("%d",&arr2[i]);
     }	
