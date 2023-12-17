@@ -76,28 +76,8 @@ int main()
 	push(30);
         push(40);
 printf(" \n%d",pop());
-
 printf(" \n%d",pop());
-
 printf(" \n%d",pop());
-
 printf(" \n%d",pop());
- 
-
-	getch();
-}
-
-
-
-
-int main()
-{
-	init();
-	push(15);
-	push(18);
-	
-	display();
-	printf("after pop of 20");
-	pop(20);
-	display();
+getch();
 }
