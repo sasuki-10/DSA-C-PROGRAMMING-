@@ -19,9 +19,9 @@ void bubblesort(int arr[],int n)
 	  swap(&arr[j],&arr[j+1]);
           swapped=1;
      }
-		}
-		if(swapped==0)
-		break;
+     }
+    if(swapped==0)
+    break;
 	}
 }
 
