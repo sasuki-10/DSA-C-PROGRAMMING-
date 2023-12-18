@@ -8,17 +8,17 @@ void swap(int*p,int*q)
 
 void bubblesort(int arr[],int n)
 {
-	int i,j;
-	int swapped=0;
-	for(i=0;i<=n-1;i++)
-	{
-		for(j=0;j<n-i-1;j++)
-		{
-			if(arr[j]>arr[j+1]);
-			{
-				swap(&arr[j],&arr[j+1]);
-				swapped=1;
-			}
+   int i,j;
+   int swapped=0;
+   for(i=0;i<=n-1;i++)
+   {
+    for(j=0;j<n-i-1;j++)
+    {
+     if(arr[j]>arr[j+1]);
+     {
+	  swap(&arr[j],&arr[j+1]);
+          swapped=1;
+     }
 		}
 		if(swapped==0)
 		break;
